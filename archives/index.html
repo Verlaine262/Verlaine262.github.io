@@ -3,15 +3,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Hexo</title>
-    <meta name="author" content="John Doe" />
+    <title>Archives | Test</title>
+    <meta name="author" content="用户名测试" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <link rel="icon" href="/images/avatar.jpg" />
+    <link rel="icon" href="/images/avatar.png" />
     <link rel="preconnect" href="https://s4.zstatic.net" />
 <script src="https://s4.zstatic.net/ajax/libs/vue/3.3.7/vue.global.prod.min.js"></script>
 <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -59,7 +59,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>HEXO</span>
+            <span>TEST</span>
         </a>
         
         <a href="/">
@@ -91,7 +91,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;HEXO</span>
+            <span>&emsp;TEST</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -155,12 +155,12 @@
     
     <div id="timeline-wrap" ref="timeline">
         
-        <div class="timeline" data-title="helloworld">
+        <div class="timeline" data-title="你好，世界">
             <div class="timeline-tail"></div>
             <div class="timeline-content">
                 <div class="item-time">2024/9/16</div>
                 <a href="/2024/09/16/hello-world/">
-                    <h3>Hello World</h3>
+                    <h3>你好，世界</h3>
                 </a>
                 <div class="info">
                     
@@ -183,6 +183,48 @@
             </div>
         </div>
         
+        <div class="timeline" data-title="测试用区域">
+            <div class="timeline-tail"></div>
+            <div class="timeline-content">
+                <div class="item-time">2024/9/16</div>
+                <a href="/2024/09/16/My-New-Post-1/">
+                    <h3>测试用区域</h3>
+                </a>
+                <div class="info">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="timeline" data-title="测试用区域">
+            <div class="timeline-tail"></div>
+            <div class="timeline-content">
+                <div class="item-time">2024/9/16</div>
+                <a href="/2024/09/16/My-New-Post-3/">
+                    <h3>测试用区域</h3>
+                </a>
+                <div class="info">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="timeline" data-title="测试用区域">
+            <div class="timeline-tail"></div>
+            <div class="timeline-content">
+                <div class="item-time">2024/9/16</div>
+                <a href="/2024/09/16/My-New-Post-2/">
+                    <h3>测试用区域</h3>
+                </a>
+                <div class="info">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -190,11 +232,11 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 Hexo
+            2022 - 2024 Test
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            &commat;John Doe
+            &commat;用户名测试
         </div>
         <div>
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
